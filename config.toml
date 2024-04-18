@@ -1,6 +1,6 @@
 baseURL = "https://example.com/"
 languageCode = "en-us"
-title = "Hugo-HT"
+title = "约书亚传导中文"
 theme = "hugo-ht"
 footnotereturnlinkcontents = "↩"
 enableRobotsTXT = true
@@ -11,66 +11,46 @@ cn = "/cn/:year/:month/:day/:slug/"
 en = "/en/:year/:month/:day/:slug/"
 posts = "/posts/:year/:month/:day/:slug/"
 
-[[menu.en]]
-    name = "Home"
+[[menu.main]]
+    name = "首页"
     url = "/"
     weight = 1
-[[menu.en]]
-    name = "About"
-    url = "/en/about/"
+[[menu.main]]
+    name = "传导"
+    url = "/posts/" 
     weight = 2
-[[menu.en]]
-    name = "Posts"
-    url = "/en/posts/"
-    weight = 3
-[[menu.en]]
-    name = "中文"
-    url = "/cn/posts/"
-    weight = 4
-[[menu.cn]]
-    name = "关于"
-    url = "/cn/about/"
-    weight = 1
-[[menu.cn]]
-    name = "日志"
-    url = "/cn/posts/"
-    weight = 2
-[[menu.cn]]
-    name = "English"
-    url = "/"
-    weight = 3
 
 [params]
-    description = "Peronal website of Your Name"
+    description = "约书亚传导中文"
     homeText = "You just need a Hugo blog from scratch"
     # Please make sure `blogDirNmae` matches the name used in `menu` above:
     blogDirName = "posts"
-    # singleLang = true
-    defaultLang = "en"
+    singleLang = true
+    defaultLang = "cn"
     MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs" 
     MathJaxVersion = "2.7.5"
-    favicon = "media/hugo-logo.png"
+    favicon = "jeshua.JPG"
     # Edit by yourself:
-    GithubEdit = "https://github.com/USERNAME/REPONAME/edit/main/content/"
+    GithubEdit = "https://github.com/hongtaoh/jeshua-cn/edit/main/content/"
     copyright = "&copy;"
-    copyrightYear = "2020-2021"
+    copyrightYear = "2024"
     # Edit by yourself:
-    GithubRepo = "https://github.com/USERNAME/REPONAME"
+    GithubRepo = "https://github.com/hongtaoh/jeshua-cn"
     # Edit by yourself:
-    ContentSource = "https://raw.githubusercontent.com/USERNAME/REPONAME/main/content/" 
+    ContentSource = "https://raw.githubusercontent.com/hongtaoh/jeshua-cn/main/content/" 
 
 [params.logo]
   # Change the logo picture as your prefer:
-  url = "media/hugo-logo.png" # you can change it
+  url = "jeshua.JPG" # you can change it
   width = 50.0
   height = 50.0
-  alt = "Hugo-ht"
+  alt = "约书亚"
 
 [params.lang]
 
     [params.lang.author]
-      en = "Your Name"
-      cn = "你的名字"
+      en = "jeshua.net"
+      cn = "jeshua.net"
 
     [params.lang.madeWith]
       en = "Made with"

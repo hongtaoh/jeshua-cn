@@ -1,7 +1,7 @@
 baseURL = "https://example.com/"
 languageCode = "en-us"
-title = "约书亚传导中文"
-theme = "hugo-jeshua"
+title = "Hugo-HT"
+theme = "hugo-ht"
 footnotereturnlinkcontents = "↩"
 enableRobotsTXT = true
 # enableGitInfo = true
@@ -11,46 +11,66 @@ cn = "/cn/:year/:month/:day/:slug/"
 en = "/en/:year/:month/:day/:slug/"
 posts = "/posts/:year/:month/:day/:slug/"
 
-[[menu.main]]
-    name = "首页"
+[[menu.en]]
+    name = "Home"
     url = "/"
     weight = 1
-[[menu.main]]
-    name = "传导"
-    url = "/posts/" 
+[[menu.en]]
+    name = "About"
+    url = "/en/about/"
     weight = 2
+[[menu.en]]
+    name = "Posts"
+    url = "/en/posts/"
+    weight = 3
+[[menu.en]]
+    name = "中文"
+    url = "/cn/posts/"
+    weight = 4
+[[menu.cn]]
+    name = "关于"
+    url = "/cn/about/"
+    weight = 1
+[[menu.cn]]
+    name = "日志"
+    url = "/cn/posts/"
+    weight = 2
+[[menu.cn]]
+    name = "English"
+    url = "/"
+    weight = 3
 
 [params]
-    description = "约书亚传导中文"
+    description = "Peronal website of Your Name"
     homeText = "You just need a Hugo blog from scratch"
     # Please make sure `blogDirNmae` matches the name used in `menu` above:
     blogDirName = "posts"
-    singleLang = true
-    defaultLang = "cn"
+    # singleLang = true
+    defaultLang = "en"
     MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs" 
     MathJaxVersion = "2.7.5"
-    favicon = "jeshua.JPG"
+    favicon = "media/hugo-logo.png"
     # Edit by yourself:
-    GithubEdit = "https://github.com/hongtaoh/jeshua-cn/edit/main/content/"
+    GithubEdit = "https://github.com/USERNAME/REPONAME/edit/main/content/"
     copyright = "&copy;"
-    copyrightYear = "2024"
+    copyrightYear = "2020-2021"
     # Edit by yourself:
-    GithubRepo = "https://github.com/hongtaoh/jeshua-cn"
+    GithubRepo = "https://github.com/USERNAME/REPONAME"
     # Edit by yourself:
-    ContentSource = "https://raw.githubusercontent.com/hongtaoh/jeshua-cn/main/content/" 
+    ContentSource = "https://raw.githubusercontent.com/USERNAME/REPONAME/main/content/" 
 
 [params.logo]
   # Change the logo picture as your prefer:
-  url = "jeshua.JPG" # you can change it
+  url = "media/hugo-logo.png" # you can change it
   width = 50.0
   height = 50.0
-  alt = "约书亚"
+  alt = "Hugo-ht"
 
 [params.lang]
 
     [params.lang.author]
-      en = "jeshua.net"
-      cn = "jeshua.net"
+      en = "Your Name"
+      cn = "你的名字"
 
     [params.lang.madeWith]
       en = "Made with"

@@ -1,3 +1,5 @@
-# My blog
+# Jeshua-cn
 
-This is the repository of my blog, powered by [Hugo](https://gohugo.io/) and themed by [Hugo-ht](https://github.com/hongtaoh/hugo-ht).
+![Pamela Books](/static/pamela-books.png)
+
+本站集合了 [https://www.jeshua.net/](https://www.jeshua.net/) 的[中文翻译文章](https://jeshua.net/zh/)。原作者及版权归属于 [Pamela Kribbe](https://www.jeshua.net/)。

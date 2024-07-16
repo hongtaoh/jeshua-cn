@@ -11,6 +11,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -moz-font-feature-settings: "liga" on;
   image-rendering: -webkit-optimize-contrast;
+/*  background-color: #FFE0B2;*/
 } 
 
 /* Two columns */
@@ -174,6 +175,7 @@ Customize as you prefer*/
   padding: 0 15px;
   font-size: 19px;
   line-height: 1.7;
+/*  background-color: #e0f7fa;*/
 }
 
 .wrapper {
